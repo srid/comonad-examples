@@ -1,4 +1,4 @@
-# haskell-template
+# comonad-examples
 
 Haskell project template optimized for a fully reproducible and friendly development environment. Based on [Nix](http://www.srid.ca/haskell-nix) + [Flakes](https://serokell.io/blog/practical-nix-flakes) + VSCode ([HLS](https://github.com/haskell/haskell-language-server)) + [fourmolu](https://github.com/fourmolu/fourmolu) autoformatting + [Relude](https://github.com/kowainik/relude#relude) as Prelude.
 
@@ -28,8 +28,8 @@ git clone <your-clone-url>
 cd your-project
 NAME=myproject
 
-git mv haskell-template.cabal ${NAME}.cabal
-nix run nixpkgs#sd -- haskell-template ${NAME} * */*
+git mv comonad-examples.cabal ${NAME}.cabal
+nix run nixpkgs#sd -- comonad-examples ${NAME} * */*
 git add . && git commit -m rename
 ```
 

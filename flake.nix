@@ -1,5 +1,5 @@
 {
-  description = "haskell-template's description";
+  description = "comonad-examples's description";
   inputs = {
     # To find a suitable nixpkgs hash with cache, pick one from https://status.nixos.org/
     nixpkgs.url = "github:nixos/nixpkgs/4d60081494259c0785f7e228518fee74e0792c1b";
@@ -30,7 +30,7 @@
           project = returnShellEnv:
             hp.developPackage {
               inherit returnShellEnv;
-              name = "haskell-template";
+              name = "comonad-examples";
               root = ./.;
               withHoogle = false;
               overrides = self: super: with pkgs.haskell.lib; {
