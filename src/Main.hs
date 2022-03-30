@@ -1,6 +1,6 @@
 module Main where
 
-import ConwayGameOfLife qualified
+import qualified ConwayGameOfLife
 
 main :: IO ()
 main = do

@@ -70,7 +70,6 @@ executable comonad-examples
     FlexibleInstances
     GADTSyntax
     GeneralisedNewtypeDeriving
-    ImportQualifiedPost
     KindSignatures
     LambdaCase
     MultiParamTypeClasses
