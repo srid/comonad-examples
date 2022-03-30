@@ -92,4 +92,4 @@ executable comonad-examples
   main-is:            Main.hs
   hs-source-dirs:     src
   default-language:   Haskell2010
-  other-modules:      ConwaysGameOfLife
+  other-modules:      ConwayGameOfLife
